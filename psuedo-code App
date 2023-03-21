@@ -1,0 +1,23 @@
+psuedo-code filter_fasilitas()
+Begin
+User input fasilitas
+find data faskes from user input
+app do kmeans cluster
+save to data variabel
+End
+
+pseudo-code AHP()
+Begin
+User Input perbandingan nilai AHP
+save input to database
+use hitungAHP()
+save result to database
+End
+
+pseudo-code AIAHP()
+Begin
+Select table pAHP_user
+sum every row
+calculate rata2
+use rata2 as base Nilai AHP 
+End

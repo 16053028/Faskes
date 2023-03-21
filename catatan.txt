@@ -1,0 +1,117 @@
+-----bug------
+table sekolah belum auto incement
+table sekolah column latitude longtitude dibelakang koma harus 5
+
+
+----skema data array hitung bobot kriteria------
+//bobot kriteria
+[
+	[
+		id_kriteria	=> 12,
+		pebandingan => [
+			[
+				id_kriteria => 13,
+				nilai 		=> 1,
+			],
+			[
+				id_kriteria => 13,
+				nilai 		=> 1,
+			],
+			[
+				id_kriteria => 13,
+				nilai 		=> 1,
+			],
+		]
+	],
+	[
+		id_kriteria	=> 12,
+		pebandingan => [
+			[
+				id_kriteria => 13,
+				nilai 		=> 1,
+			],
+			[
+				id_kriteria => 13,
+				nilai 		=> 1,
+			],
+			[
+				id_kriteria => 13,
+				nilai 		=> 1,
+			],
+		]
+	],
+]
+
+
+//data jumlah bobot
+[
+	[
+		"id_kriteria" 	=> 2,
+		"jumlah_bobot"	=> 6366,
+	],
+	[
+		"id_kriteria" 	=> 3,
+		"jumlah_bobot"	=> 63,
+	],
+	[
+		"id_kriteria" 	=> 4,
+		"jumlah_bobot"	=> 7366,
+	]
+]
+
+
+//normalisasi kriteria
+[
+	[
+		id_kriteria	=> 12,
+		pebandingan => [
+			[
+				id_kriteria 			=> 2,
+				nilai_normalisasi 		=> 136,
+			],
+			[
+				id_kriteria 			=> 3,
+				nilai_normalisasi 		=> 12382,
+			],
+			[
+				id_kriteria 			=> 4,
+				nilai_normalisasi 		=> 1827,
+			],
+		]
+	],
+	[
+		id_kriteria	=> 12,
+		pebandingan => [
+			[
+				id_kriteria 			=> 2,
+				nilai_normalisasai 		=> 17238,
+			],
+			[
+				id_kriteria 			=> 3,
+				nilai_normalisasi 		=> 1283,
+			],
+			[
+				id_kriteria 			=> 4,
+				nilai_normalisasi 		=> 1823,
+			],
+		]
+	],
+]
+
+
+//data jumlah normalisasi
+[
+	[
+		"id_kriteria" 			=> 2,
+		"jumlah_normalisasi"	=> 1,
+	],
+	[
+		"id_kriteria" 			=> 3,
+		"jumlah_normalisasi"	=> 1	
+
+	],
+	[
+		"id_kriteria" 			=> 4,
+		"jumlah_normalisasi"	=> 1,
+	]
+]
